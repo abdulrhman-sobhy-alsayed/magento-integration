@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+<!--    <event name="customer_login">-->
+<!--        <observer name="customer_login_event" instance="PocketUp\User\Observer\HandleLoginEvent" />-->
+<!--    </event>-->
+<!--    <event name="customer_logout">-->
+<!--        <observer name="customer_logout_event" instance="PocketUp\User\Observer\HandleLogoutEvent" />-->
+<!--    </event>-->
+    <event name="sales_order_save_after">
+        <observer name="order_status_event" instance="PocketUp\User\Observer\HandleCheckoutEvent" />
+    </event>
+</config>
