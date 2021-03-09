@@ -1,0 +1,37 @@
+{
+    "name":"abdulrhman-sobhy-alsayed/magento-pocket-up-integration",
+    "description": "integration between any magento2 system and Pocket-Up sytem",
+    "keywords": [
+        "magento 2",
+        "magento",
+        "magento2-extention",
+        "pocket-up",
+        "integration"
+    ],
+    "require": {
+        "php": "~7.3.0||~7.4.0"
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Abdulrhman Sobhy",
+            "email": "a.alsayed@coop.bytecode.sa",
+            "role": "Backend Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "PocketUp\\User\\": ""
+        }
+    },
+	"config":{
+      "cache-files-ttl":0
+  }
+}
