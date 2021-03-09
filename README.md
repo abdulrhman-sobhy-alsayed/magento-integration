@@ -6,7 +6,7 @@ this extension enable you to integrate your system to Pocket-Up Voucher and poin
 
 Under your magento store root folder run the following commands:
 ```angular2html
-composer require AbdulrhmanSobhyAlsayed/magento-pocket-up-integration
+composer require abdulrhman-sobhy-alsayed/magento-pocket-up-integration
 
 php bin/magento setup:upgrade
 
