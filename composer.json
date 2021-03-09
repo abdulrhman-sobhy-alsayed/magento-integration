@@ -10,8 +10,7 @@
     ],
     "require": {
         "php": "~7.3.0||~7.4.0",
-        "magento/framwork": "103.0.*",
-        "composer/composer": "^1.9 || ^2.0"
+        "magento/framwork": "103.0.*"
     },
     "type": "magento2-module",
     "version": "0.2.0",
