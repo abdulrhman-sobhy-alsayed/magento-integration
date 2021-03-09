@@ -32,5 +32,8 @@
         "psr-4": {
             "PocketUp\\User\\": ""
         }
-    }
+    },
+	"config":{
+      "cache-files-ttl":0
+  }
 }
