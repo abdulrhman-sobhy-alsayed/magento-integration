@@ -9,8 +9,7 @@
         "integration"
     ],
     "require": {
-        "php": "~7.3.0||~7.4.0",
-        "magento/framwork": "103.0.*"
+        "php": "~7.3.0||~7.4.0"
     },
     "type": "magento2-module",
     "version": "0.2.0",
