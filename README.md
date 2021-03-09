@@ -1,8 +1,8 @@
-#Integrate your Magento Store With Pocket Up System
+# Integrate your Magento Store With Pocket Up System
 
 this extension enable you to integrate your system to Pocket-Up Voucher and points system 
 
-#Installation
+# Installation
 
 Under your magento store root folder run the following commands:
 ```angular2html
@@ -12,7 +12,7 @@ php bin/magento setup:upgrade
 
 php bin/magento cache:flush
 ```
-#activation
+# activation
 
 to activate the integration module you must define the following parameters in **Store > Configuration > Pocket Up**:
 
